@@ -4,7 +4,7 @@ spring:
         stream:
             kafka:
                 binder:
-                    brokers: 'kafka.retro.io'
+                    brokers: 'kafka.pks.kirklab.io'
             bindings:
                 input:
                     destination: todos-out
